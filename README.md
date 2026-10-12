@@ -1,6 +1,6 @@
 # Angular 22 Routing and Navigation Tutorial
 
-Read the full tutorial [here](<>).
+Read the full tutorial [here](https://www.djamware.com/post/angular-tutorial-routing-and-navigation).
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.8.
 
