@@ -1,0 +1,22 @@
+<h2>Home</h2>
+
+<p>Welcome to the Angular 22 routing tutorial.</p>
+
+<a
+  routerLink="/about"
+  [queryParams]="{
+    source: 'home',
+    version: 22,
+  }"
+>
+  About with Query Parameters
+</a>
+<button type="button" (click)="goToAboutWithQuery()">Navigate with Query Parameters</button>
+
+<h3>Products</h3>
+
+<ul>
+  <li><a routerLink="/products/101">Product 101</a></li>
+  <li><a routerLink="/products/102">Product 102</a></li>
+  <li><a routerLink="/products/103">Product 103</a></li>
+</ul>

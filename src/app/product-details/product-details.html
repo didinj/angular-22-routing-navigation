@@ -1,0 +1,19 @@
+<h2>Product Details</h2>
+
+<h2>Product Listing</h2>
+
+<!-- <p>Category: {{ category }}</p>
+<p>Page: {{ page }}</p>
+
+<button type="button" (click)="changePage()">Next Page</button> -->
+
+<h2>Product Details</h2>
+
+@if (product(); as item) {
+  <h3>{{ item.name }}</h3>
+
+  <p>Product ID: {{ item.id }}</p>
+  <p>Price: {{ item.price | currency }}</p>
+} @else {
+  <p>Product not found.</p>
+}
